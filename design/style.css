@@ -1,0 +1,189 @@
+body {
+    background-color: rgb(240, 223, 223, 0.8);
+    font-family: 'Lato', sans-serif
+}
+
+/* Réalisation du header */
+
+.header-title {
+    font-size: 110px;
+    font-style: bolder;
+    word-spacing: 10px;
+    padding-left: 50px;
+    padding-top: 20px;
+    height: 200px;
+    border-bottom: 3px solid black;
+    background-image: url("https://www.pizza-company-fourmies.fr/assets/img/slider/pizzeria-fourmies-hirson-anor.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    text-shadow: 1px 3px 2px black;
+    color: white;
+    
+
+}
+
+.header-nav {
+    background-color: rgb(0, 0, 0, 0.8);
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-bottom: 3px solid black;
+}
+
+.header-nav--ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-nav--list {
+    display: flex;
+}
+
+.header-nav--list--href {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+
+/* Réalisation du main */
+
+.main-presentation-category {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-presentation-category-card--one--pizza, .main-presentation-category-card--two--dessert, .main-presentation-category-card--three--beverage, .main-presentation-category-card--four--book {
+    text-decoration: none;
+    color: white;
+}
+
+.pizza {
+    background-image: url("https://www.atelierdeschefs.com/media/recette-e30299-pizza-pepperoni-tomate-mozza.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    width: 800px;
+    height: 400px;
+    margin-bottom: 50px;
+    font-size: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: 30px;
+    border: 3px solid black;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    text-shadow: 1px 3px 2px black;
+}
+
+.dessert {
+    background-image: url("https://www.academiedugout.fr/images/41813/1200-auto/8101-mousse-au-chocolat-au-gingembre.jpg?poix=50&poiy=50");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+    height: 400px;
+    margin-bottom: 50px;
+    font-size: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: 30px;
+    text-align: center;
+    border: 3px solid black;
+    font-weight: bold;
+    text-shadow: 1px 3px 2px black;
+}
+
+.beverage {
+    background-image: url("https://www.cocktail.fr/wp-content/uploads/elementor/thumbs/Les-boissons-les-plus-consomme%CC%81es-en-France-pgqhpiygwijl9lvamiahd8e4jjoczj3ybyqnaj0tf4.jpg");
+    background-size: cover;
+    width: 800px;
+    height: 400px;
+    margin-bottom: 50px;
+    font-size: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: 30px;
+    text-align: center;
+    border: 3px solid black;
+    font-weight: bold;
+    text-shadow: 1px 3px 2px black;
+    opacity: 0.8;
+}
+
+.book {
+    background-image: url("https://cdn0-production-images-kly.akamaized.net/3g0mNdY7uX4zbBH9KKsv6ZmsT8U=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/1577978/original/052800200_1493265345-Ilustrasi_orang_sedang_mengetik_di_laptop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 400px;
+    margin-bottom: 50px;
+    font-size: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: 30px;
+    text-align: center;
+    border: 3px solid black;
+    font-weight: bold;
+    text-shadow: 1px 3px 2px black;
+}
+
+.main-presentation--title {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.main-presentation--firstparagraph, .main-presentation--secondparagraph, .main-presentation--thirdparagraph {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+/* Réalisation du footer */
+
+.footer {
+    background-color: rgb(0, 0, 0, 0.80);
+    border-top: 3px solid black;
+    height: 160px;
+    position: sticky;
+
+}
+
+.footer-socialnetwork--ul {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.footer-registration {
+    padding-top: 20px;
+}
+.footer-registration--href {
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    padding-left: 30px;
+}
+
+.image-twitter, .image-tiktok, .image-instagram {
+    width: 50px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+}
+
+.image-facebook {
+    width: 90px;
+
+}
+
+.footer--signature {
+    color: white;
+    font-size: 10px;
+    padding-left: 30px;
+}
