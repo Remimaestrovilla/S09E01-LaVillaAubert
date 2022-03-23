@@ -1,212 +1,470 @@
+/* CSS de la page d'accueil */
+
 body {
-    background-color: rgb(240, 223, 223, 0.8);
-    font-family: "Lato", sans-serif;
-  }
-  
-  /* Réalisation du header */
-  
-  .header-title {
-    font-size: 6em;
-    word-spacing: 10px;
-    height: 200px;
-    border-bottom: 3px solid black;
-    background-image: url("https://www.pizza-company-fourmies.fr/assets/img/slider/pizzeria-fourmies-hirson-anor.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-weight: bold;
-    text-shadow: 1px 3px 2px black;
-    color: white;
-    padding-top: 20px;
-    padding-left: 20px;
-  }
-  
-  .header-title--redirection {
-    text-decoration: none;
-    color: white;
-  }
-  
-  .header-title--redirection:hover {
-    color: orange;
-  }
-  
-  .header-nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(0, 0, 0, 0.8);
-    height: 60px;
-    border-bottom: 3px solid black;
-  }
-  
-  .header-nav--ul {
-    display: flex;
-    justify-content: space-around;
-    gap: 6em;
-    align-items: center;
-  }
-  
-  .header-nav--list--href {
-    text-decoration: none;
-    color: white;
-    font-size: 2em;
-  }
-  
-  .header-nav--list--href:hover {
-    color: orange;
-  }
-  
-  /* Réalisation du main */
-  
-  .main-presentation-category {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  
-  .main-presentation-category-card--one--pizza,
-  .main-presentation-category-card--two--dessert,
-  .main-presentation-category-card--three--beverage,
-  .main-presentation-category-card--four--book {
-    text-decoration: none;
-    color: white;
-  }
-  
-  .main-presentation-category-card--one--pizza:hover, 
-  .main-presentation-category-card--two--dessert:hover, 
-  .main-presentation-category-card--three--beverage:hover,
-  .main-presentation-category-card--four--book:hover {
-    color: orange;
-  }
-  
-  .pizza {
-    display: flex;
-    background-image: url("https://www.atelierdeschefs.com/media/recette-e30299-pizza-pepperoni-tomate-mozza.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.8;
-    width: 800px;
-    height: 400px;
-    margin-bottom: 50px;
-    font-size: 100px;
-    border: 3px solid black;
-    font-weight: bold;
-    align-items: center;
-    justify-content: center;
-    text-shadow: 1px 3px 2px black;
-    margin-right: 25px;
-  }
-  
-  .dessert {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url("https://www.academiedugout.fr/images/41813/1200-auto/8101-mousse-au-chocolat-au-gingembre.jpg?poix=50&poiy=50");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 800px;
-    height: 400px;
-    margin-bottom: 50px;
-    font-size: 100px;
-    border: 3px solid black;
-    font-weight: bold;
-    text-shadow: 1px 3px 2px black;
-  }
-  
-  .beverage {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url("https://www.cocktail.fr/wp-content/uploads/elementor/thumbs/Les-boissons-les-plus-consomme%CC%81es-en-France-pgqhpiygwijl9lvamiahd8e4jjoczj3ybyqnaj0tf4.jpg");
-    background-size: cover;
-    width: 800px;
-    height: 400px;
-    margin-bottom: 50px;
-    font-size: 100px;
-    border: 3px solid black;
-    font-weight: bold;
-    text-shadow: 1px 3px 2px black;
-    opacity: 0.8;
-    margin-right: 25px;
-  }
-  
-  .book {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url("https://cdn0-production-images-kly.akamaized.net/3g0mNdY7uX4zbBH9KKsv6ZmsT8U=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/1577978/original/052800200_1493265345-Ilustrasi_orang_sedang_mengetik_di_laptop.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 800px;
-    height: 400px;
-    margin-bottom: 50px;
-    font-size: 100px;
-    border: 3px solid black;
-    font-weight: bold;
-    text-shadow: 1px 3px 2px black;
-  }
-  
-  .main-presentation--title {
-    padding-top: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 30px;
-    margin-bottom: 20px;
-    text-align: justify;
-  }
-  
-  .main-presentation--firstparagraph,
-  .main-presentation--secondparagraph,
-  .main-presentation--thirdparagraph {
-    padding-top: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 30px;
-    margin-bottom: 20px;
-    text-align: justify;
-  }
-  /* Réalisation du footer */
-  
-  .footer {
-    background-color: rgb(0, 0, 0, 0.8);
-    border-top: 3px solid black;
-    height: 160px;
-    position: sticky;
-  }
-  
-  .footer-socialnetwork--ul {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 20px;
-  }
-  
-  .footer-registration {
-    padding-top: 20px;
-  }
-  .footer-registration--href {
-    text-decoration: none;
-    font-size: 40px;
-    color: white;
-    padding-left: 30px;
-  }
-  
-  .footer-registration--href:hover {
-    color: orange;
-  }
-  
-  .image-twitter,
-  .image-tiktok,
-  .image-instagram {
-    width: 50px;
-    padding-bottom: 0px;
-    padding-right: 20px;
-  }
-  
-  .image-facebook {
-    width: 90px;
-  }
-  
-  .footer--signature {
-    color: white;
-    font-size: 10px;
-    padding-left: 30px;
-  }
+  background-color: rgb(240, 223, 223, 0.8);
+  font-family: "Lato", sans-serif;
+}
+
+/* Réalisation du header */
+
+.header-title {
+  font-size: 6em;
+  word-spacing: 10px;
+  height: 200px;
+  border-bottom: 3px solid black;
+  background-image: url("https://www.pizza-company-fourmies.fr/assets/img/slider/pizzeria-fourmies-hirson-anor.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
+  text-shadow: 1px 3px 2px black;
+  color: white;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.header-title--redirection {
+  text-decoration: none;
+  color: white;
+}
+
+.header-title--redirection:hover {
+  color: orange;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 0, 0, 0.8);
+  height: 60px;
+  border-bottom: 3px solid black;
+}
+
+.header-nav--ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 6em;
+  align-items: center;
+}
+
+.header-nav--list--href {
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+}
+
+.header-nav--list--href:hover {
+  color: orange;
+}
+
+/* Réalisation du main */
+
+.main-presentation-category {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main-presentation-category-card--one--pizza,
+.main-presentation-category-card--two--dessert,
+.main-presentation-category-card--three--beverage,
+.main-presentation-category-card--four--book {
+  text-decoration: none;
+  color: white;
+}
+
+.main-presentation-category-card--one--pizza:hover,
+.main-presentation-category-card--two--dessert:hover,
+.main-presentation-category-card--three--beverage:hover,
+.main-presentation-category-card--four--book:hover {
+  color: orange;
+}
+
+.pizza {
+  display: flex;
+  background-image: url("https://www.atelierdeschefs.com/media/recette-e30299-pizza-pepperoni-tomate-mozza.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  width: 800px;
+  height: 400px;
+  margin-bottom: 50px;
+  font-size: 100px;
+  border: 3px solid black;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 1px 3px 2px black;
+  margin-right: 25px;
+}
+
+.dessert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://www.academiedugout.fr/images/41813/1200-auto/8101-mousse-au-chocolat-au-gingembre.jpg?poix=50&poiy=50");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 800px;
+  height: 400px;
+  margin-bottom: 50px;
+  font-size: 100px;
+  border: 3px solid black;
+  font-weight: bold;
+  text-shadow: 1px 3px 2px black;
+}
+
+.beverage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://www.cocktail.fr/wp-content/uploads/elementor/thumbs/Les-boissons-les-plus-consomme%CC%81es-en-France-pgqhpiygwijl9lvamiahd8e4jjoczj3ybyqnaj0tf4.jpg");
+  background-size: cover;
+  width: 800px;
+  height: 400px;
+  margin-bottom: 50px;
+  font-size: 100px;
+  border: 3px solid black;
+  font-weight: bold;
+  text-shadow: 1px 3px 2px black;
+  opacity: 0.8;
+  margin-right: 25px;
+}
+
+.book {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://cdn0-production-images-kly.akamaized.net/3g0mNdY7uX4zbBH9KKsv6ZmsT8U=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/1577978/original/052800200_1493265345-Ilustrasi_orang_sedang_mengetik_di_laptop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 800px;
+  height: 400px;
+  margin-bottom: 50px;
+  font-size: 100px;
+  border: 3px solid black;
+  font-weight: bold;
+  text-shadow: 1px 3px 2px black;
+}
+
+.main-presentation--title {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.main-presentation--firstparagraph,
+.main-presentation--secondparagraph,
+.main-presentation--thirdparagraph {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+/* Réalisation du footer */
+
+.footer {
+  background-color: rgb(0, 0, 0, 0.8);
+  border-top: 3px solid black;
+  height: 160px;
+  position: sticky;
+}
+
+.footer-socialnetwork--ul {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.footer-registration {
+  padding-top: 20px;
+}
+
+.footer-registration--href {
+  text-decoration: none;
+  font-size: 40px;
+  color: white;
+  padding-left: 30px;
+}
+
+.footer-registration--href:hover {
+  color: orange;
+}
+
+.image-twitter,
+.image-tiktok,
+.image-instagram {
+  width: 50px;
+  padding-bottom: 0px;
+  padding-right: 20px;
+}
+
+.image-facebook {
+  width: 90px;
+}
+
+.footer--signature {
+  color: white;
+  font-size: 10px;
+  padding-left: 30px;
+}
+
+/* CSS de la page contact */
+
+.contact-presentation-category {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-presentation-category-card--one--localisation,
+.contact-presentation-category-card--two--telephone,
+.contact-presentation-category-card--three--mail,
+.contact-presentation-category-card--four--other {
+  text-decoration: none;
+  color: white;
+}
+
+.contact-presentation-category-card--one--localisation:hover,
+.contact-presentation-category-card--two--telephone:hover,
+.contact-presentation-category-card--three--mail:hover,
+.contact-presentation-category-card--four--other:hover {
+  color: orange;
+}
+
+.localisation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://www.casa-pizza.com/images/photoarticles/pizzerias-visibles-istock.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 800px;
+  height: 400px;
+  margin-bottom: 50px;
+  font-size: 100px;
+  border: 3px solid black;
+  font-weight: bold;
+  text-shadow: 1px 3px 2px black;
+  margin-right: 25px;
+}
+
+.telephone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://i-sam.unimedias.fr/2016/06/27/istock_81476507_medium.jpg?auto=format%2Ccompress&crop=faces&cs=tinysrgb&fit=crop&h=675&w=1200");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 800px;
+  height: 400px;
+  margin-bottom: 50px;
+  font-size: 100px;
+  border: 3px solid black;
+  font-weight: bold;
+  text-shadow: 1px 3px 2px black;
+}
+
+.mail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://img-0.journaldunet.com/LdKTfkFeppYSmL24oUA1qcUhrbY=/1500x/smart/8690a467acaf4cd4b74fcbc6d27dfdab/ccmcms-jdn/15976496.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 800px;
+  height: 400px;
+  margin-bottom: 50px;
+  font-size: 100px;
+  border: 3px solid black;
+  font-weight: bold;
+  text-shadow: 1px 3px 2px black;
+  margin-right: 25px;
+}
+
+.other {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://lepetitjournal.com/sites/default/files/styles/main_article/public/2019-05/Hours-Clock-702x335.jpg?itok=mQMESr6Y");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 800px;
+  height: 400px;
+  margin-bottom: 50px;
+  font-size: 100px;
+  border: 3px solid black;
+  font-weight: bold;
+  text-shadow: 1px 3px 2px black;
+}
+
+/* CSS de la page network */
+
+.network-presentation-category {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.network-presentation-category-card--one--facebook,
+.network-presentation-category-card--two--twitter,
+.network-presentation-category-card--three--tiktok,
+.network-presentation-category-card--four--instagram {
+  text-decoration: none;
+  color: white;
+}
+
+.network-presentation-category-card--one--facebook:hover,
+.network-presentation-category-card--two--twitter:hover,
+.network-presentation-category-card--three--tiktok:hover,
+.network-presentation-category-card--four--instagram:hover {
+  color: orange;
+}
+
+.facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://pricemoov.ghost.io/content/images/2020/06/photo-de-couv-fb-marketplace-v2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 800px;
+  height: 400px;
+  margin-bottom: 50px;
+  font-size: 100px;
+  border: 3px solid black;
+  font-weight: bold;
+  text-shadow: 1px 3px 2px black;
+  margin-right: 25px;
+}
+
+.twitter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://www.unapei-idf.org/wp-content/uploads/2018/03/twitter_unapei-idf.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 800px;
+  height: 400px;
+  margin-bottom: 50px;
+  font-size: 100px;
+  border: 3px solid black;
+  font-weight: bold;
+  text-shadow: 1px 3px 2px black;
+  margin-right: 25px;
+}
+
+.tiktok {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://ar.toneden.io/45615138/802c2af0-0d5c-4aac-a911-914ce6023340");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 800px;
+  height: 400px;
+  margin-bottom: 50px;
+  font-size: 100px;
+  border: 3px solid black;
+  font-weight: bold;
+  text-shadow: 1px 3px 2px black;
+  margin-right: 25px;
+}
+
+.instagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://wazadigital.com/wp-content/uploads/2021/03/instagram-commercialiser-entreprise.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 800px;
+  height: 400px;
+  margin-bottom: 50px;
+  font-size: 100px;
+  border: 3px solid black;
+  font-weight: bold;
+  text-shadow: 1px 3px 2px black;
+  margin-right: 25px;
+}
+
+/* CSS de la page Connexion */
+
+.login--form--section {
+  margin-left: 30px;
+}
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+
+.text-info {
+  margin-right: 80px;
+}
+
+.form-control {
+  width: 800px;
+  height: 50px;
+  border: 1px solid black;
+}
+
+.remember-me {
+  margin-right: 20px;
+}
+
+.main-menu {
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.return--to--the--main--menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(206, 39, 39);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 800px;
+  height: 400px;
+  margin-bottom: 50px;
+  font-size: 100px;
+  border: 3px solid black;
+  font-weight: bold;
+  text-shadow: 1px 3px 2px black;
+  margin-right: 25px;
+  color: white;
+}
+
+.return--to--the--main--menu:hover {
+  color: orange;
+}
+
+.btn--confirm {
+  width: 806px;
+  height: 406px;
+  margin-bottom: 50px;
+  font-size: 100px;
+  border: 3px solid black;
+  font-weight: bold;
+  text-shadow: 1px 3px 2px black;
+  margin-right: 25px;
+  color: white;
+  background-color: rgb(43, 143, 43);
+  text-decoration: none;
+}
+
+.btn--confirm:hover {
+color: orange;
+}

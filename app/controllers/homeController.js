@@ -6,6 +6,8 @@ const homeController = {
 
     home: function (request, response) {
 
+    // Pour rendre la vue qui s'appelle home.ejs
+    
         response.render("home");
 
     }

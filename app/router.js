@@ -10,9 +10,25 @@ const router = express.Router();
 
 const homeController = require ("./controllers/homeController");
 
-// Je réalise une route pour vérifier que le routeur et le serveur sont liés après toute la séparation des concepts établie auparavant
+const contactController = require ("./controllers/contactController");
+
+const networkController = require ("./controllers/networkController");
+
+const loginController = require ('./controllers/loginController');
+
+const subscribeController = require ('./controllers/subscribeController');
+
+// Je réalise les routes pour vérifier que le routeur et le serveur sont liés après toute la séparation des concepts établie auparavant
 
 router.get('/', homeController.home);
+
+router.get('/contact', contactController.contact);
+
+router.get('/network', networkController.network);
+
+router.get('/login', loginController.login);
+
+router.get('/subscribe', subscribeController.subscribe);
 
 // J'exporte le module router pour l'importer plus tard dans le server.js
 

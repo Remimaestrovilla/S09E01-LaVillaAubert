@@ -1,44 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/reset.css" />
-    <link rel="stylesheet" href="/css/style.css" />
-    <title>Page d'accueil</title>
-</head>
-
-<body>
-
-    <!-- Réalisation du header -->
-
-    <header class="header">
-
-        <div class="header-title--div">
-            <h1 class="header-title"><a href="#" class="header-title--redirection">La Villa Aubert</a></h1>
-        </div>
-
-        <div class="header-nav--div">
-            <nav class="header-nav">
-                <ul class="header-nav--ul">
-                    <li class="header-nav--list"><a class="header-nav--list--href" href="#"
-                            target="_blank">Coordonnées</a></li>
-                    <li class="header-nav--list"><a class="header-nav--list--href" href="#" target="_blank">Nous
-                            suivre</a></li>
-                    <li class="header-nav--list"><a class="header-nav--list--href" href="#"
-                            target="_blank">Connexion</a></li>
-                    <li class="header-nav--list"><a class="header-nav--list--href" href="#"
-                            target="_blank">Inscription</a></li>
-                </ul>
-            </nav>
-        </div>
-
-    </header>
+<%- include ("partials/header") %>
 
     <!-- Réalisation du main -->
 
@@ -46,8 +6,7 @@
 
         <section class="main-presentation">
             <h2 class="main-presentation--title">Bienvenue à la pizzéria La Villa Aubert !</h2><br>
-            <p class="main-presentation--firstparagraph"> En 2020, nous avions comme objectif de réunir nos deux familles sous un même projet : celui d'ouvrir notre pizzéria. C'est désormais chose faite. Vous trouverez chez nous des pizzas faites maison et cuites au feu de bois. Nous avons un large choix de plats afin de satisfaire toute notre clientèle, de pizzas base sauce tomate à base crème en passant par les pizzas faites sans gluten et végétariennes, à La Villa Aubert, tout le monde en a pour son assiette. Nous proposons également de nombreuses pizzas sucrées en guise de dessert et avons plusieurs vins et boissons à votre disposition.</p><br>
-            <p class="main-presentation--secondparagraph">Si la carte de notre restaurant vous convient, n'hésitez pas à nous suivre sur nos réseaux sociaux, à vous inscrire à notre site afin de gagner des points de fidélités et à vous connecter afin de pouvoir écrire un petit mot dans notre livre d'or, nous restons quoi qu'il arrive à votre écoute. Bon appétit !</p><br>
+             <p class="main-presentation--secondparagraph">Si la carte de notre restaurant vous convient, n'hésitez pas à nous suivre sur nos réseaux sociaux, à vous inscrire à notre site afin de gagner des points de fidélités et à vous connecter afin de pouvoir écrire un petit mot dans notre livre d'or, nous restons quoi qu'il arrive à votre écoute. Bon appétit !</p><br>
         </section>
 
         <section class="main-presentation-category">
@@ -67,37 +26,4 @@
 
     </main>
 
-    <!-- Realisation du footer -->
-
-    <footer class="footer">
-
-        <div class="footer-registration-div">
-            <p class="footer-registration"><a class="footer-registration--href" href="#" target="_blank">Mentions
-                    légales</a></p><br>
-            <p class="footer--signature">Rémi Maestro-Villa, 2022.</p>
-        </div>
-
-        <div class="footer-socialnetwork-div">
-            <nav class="footer-socialnetwork-nav">
-                <ul class="footer-socialnetwork--ul">
-                    <li class="footer-nav--list"><img
-                            src="https://i0.wp.com/www.madtrail.com/wp-content/uploads/2018/06/logo-fb.png?ssl=1"
-                            alt="Facebok Logo" class="image-facebook" href="#" target="_blank"></li>
-                    <li class="footer-nav--list"><img
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/800px-Instagram_logo_2016.svg.png"
-                            alt="Instagram Logo" class="image-instagram" href="#" target="_blank"></li>
-                    <li class="footer-nav--list"><img
-                            src="https://icones.pro/wp-content/uploads/2021/03/logo-icone-tiktok-simbolo.png"
-                            alt="TikTok Logo" class="image-tiktok" href="#" target="_blank"></li>
-                    <li class="footer-nav--list"><img
-                            src="https://f.hellowork.com/blogdumoderateur/2019/11/twitter-logo.jpg" alt="Twitter Logo" class="image-twitter"
-                            href="#" target="_blank"></li>
-                </ul>
-            </nav>
-        </div>
-
-    </footer>
-
-</body>
-
-</html>
+    <%- include ("partials/footer") %>

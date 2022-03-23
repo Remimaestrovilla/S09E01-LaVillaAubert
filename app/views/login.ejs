@@ -1,0 +1,35 @@
+<%- include ("partials/header") %>
+
+<!-- Réalisation du main -->
+
+<main class="main">
+
+    <section class="main-presentation">
+
+        <p class="main-presentation--firstparagraph">Vous souhaitez vous connecter pour soutenir La Villa Aubert ? Vous
+            avez fait le bon choix !</p><br>
+
+    </section>
+
+    <!-- Je réalise le formulaire de connexion -->
+
+    <section class="login--form--section">
+
+        <div class="form-group">
+            <label for="username" class="text-info">Adresse Mail :</label>
+            <input type="text" name="username" id="username" class="form-control" placeholder="Entrez ici votre adresse mail">
+        </div>
+        <div class="form-group">
+            <label for="password" class="text-info">Mot De Passe :</label>
+            <input type="password" name="password" id="password" class="form-control" placeholder="Entrez ici votre mot de passe">
+        </div><br>
+        <div class="form-group">
+           <a href="/" class="main-menu"><p class="return--to--the--main--menu">Annuler</p></a>
+            <input type="submit" name="submit" class="btn--confirm" value="Envoyer">
+        </div>
+       
+    </section>
+
+</main>
+
+<%- include ("partials/footer") %>
