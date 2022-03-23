@@ -7,7 +7,6 @@ body {
 
 .header-title {
   font-size: 6em;
-  text-align: center;
   word-spacing: 10px;
   height: 200px;
   border-bottom: 3px solid black;
@@ -17,6 +16,17 @@ body {
   font-weight: bold;
   text-shadow: 1px 3px 2px black;
   color: white;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.header-title--redirection {
+  text-decoration: none;
+  color: white;
+}
+
+.header-title--redirection:hover {
+  color: orange;
 }
 
 .header-nav {
@@ -41,6 +51,10 @@ body {
   font-size: 2em;
 }
 
+.header-nav--list--href:hover {
+  color: orange;
+}
+
 /* Réalisation du main */
 
 .main-presentation-category {
@@ -55,6 +69,13 @@ body {
 .main-presentation-category-card--four--book {
   text-decoration: none;
   color: white;
+}
+
+.main-presentation-category-card--one--pizza:hover, 
+.main-presentation-category-card--two--dessert:hover, 
+.main-presentation-category-card--three--beverage:hover,
+.main-presentation-category-card--four--book:hover {
+  color: orange;
 }
 
 .pizza {
@@ -72,6 +93,7 @@ body {
   align-items: center;
   justify-content: center;
   text-shadow: 1px 3px 2px black;
+  margin-right: 25px;
 }
 
 .dessert {
@@ -104,6 +126,7 @@ body {
   font-weight: bold;
   text-shadow: 1px 3px 2px black;
   opacity: 0.8;
+  margin-right: 25px;
 }
 
 .book {
@@ -164,6 +187,10 @@ body {
   font-size: 40px;
   color: white;
   padding-left: 30px;
+}
+
+.footer-registration--href:hover {
+  color: orange;
 }
 
 .image-twitter,
