@@ -24,7 +24,7 @@ app.set ("views", "./../app/views");
 
 // Je recupère, avec la méthode express.static, le dossier contenant tout le CSS
 
-app.use (express.static("css"));
+app.use (express.static("static"));
 
 // Je part chercher le router
 
