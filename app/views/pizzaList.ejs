@@ -1,0 +1,43 @@
+<%- include ("partials/header") %>
+
+<!-- Réalisation du main -->
+
+<main class="main">
+
+    <section class="main-presentation">
+
+        <p class="main-presentation--firstparagraph">Voici l'intégralité des pizzas proposées à La Villa Aubert.
+            <br><br>
+            N'hésitez pas à cliquer sur les vignettes pour afficher les détails de chaque pizza qui vous donne envie !
+            <br>
+        </p><br>
+
+    </section>
+
+    <!-- On a beaucoup de pizzas proposées, pour afficher la liste de l'intégralité des pizzas, il est judicieux de réaliser une boucle -->
+
+    <!-- Je réalise donc une boucle for of pour afficher CHAQUE pizza de la liste pizzas-->
+
+    <section class="list-of-pizza--presentation-category">
+
+        <!-- J'emploie la syntaxe ejs-->
+
+        <% for (const pizza of pizzas) { %>
+
+        <section class="pizza-presentation-category-card--one">
+
+            <a class="list-of-pizza--presentation-category-card--one--pizza" href="/pizzas/<%= pizza.id %>">
+
+                <img class="pizza--small--details--image" src="<%= pizza.img %>" alt= "<%= pizza.img_alt %>" />
+
+                <p class="pizza--small--details"><%= pizza.name %></p>
+
+            </a>
+
+        </section>
+
+        <% } %>
+
+    </section>
+
+    <%- include ("partials/footer") %>

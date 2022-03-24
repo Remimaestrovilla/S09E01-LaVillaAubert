@@ -1,0 +1,16 @@
+<%- include ("partials/header") %>
+
+<!-- Réalisation du main -->
+
+<main class="main">
+
+    <section class="main-presentation">
+
+        <p class="main-presentation--firstparagraph">Voici les détails de la pizza <span
+                class="product--details--name"><%= pizzas.name %></span> : </p><br>
+        <p class="main-presentation--firstparagraph"><span class="product--details--topping">Ingrédients : </span><span><%= pizzas.topping %></span></p>
+        <p class="main-presentation--firstparagraph"><span class="product--details--topping">Prix : </span><span><%= pizzas.price %> &euro; </span></p><br>
+        <img src= "<%= pizzas.img %>" alt="<%= pizzas.img_alt %>" class="pizza--big--details--image">
+    </section>
+
+    <%- include ("partials/footer") %>

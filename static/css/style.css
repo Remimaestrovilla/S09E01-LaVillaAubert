@@ -1,4 +1,4 @@
-/* CSS de la page d'accueil */
+/* ------------------------------------------------ CSS de la page d'accueil ----------------------------------------------------------------------------------- */
 
 body {
   background-color: rgb(240, 223, 223, 0.8);
@@ -215,7 +215,7 @@ body {
   padding-left: 30px;
 }
 
-/* CSS de la page contact */
+/* ----------------------------------------------------------------- CSS de la page contact ----------------------------------------------------------------------- */
 
 .contact-presentation-category {
   display: flex;
@@ -304,7 +304,7 @@ body {
   text-shadow: 1px 3px 2px black;
 }
 
-/* CSS de la page network */
+/* ------------------------------------------------------------- CSS de la page network --------------------------------------------------------------------------- */
 
 .network-presentation-category {
   display: flex;
@@ -395,7 +395,7 @@ body {
   margin-right: 25px;
 }
 
-/* CSS de la page Connexion */
+/* ------------------------------------------------------------ CSS de la page Connexion / Inscription ------------------------------------------------------------- */
 
 .login--form--section {
   margin-left: 30px;
@@ -433,7 +433,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:rgb(206, 39, 39);
+  background-color: rgb(206, 39, 39);
   background-repeat: no-repeat;
   background-size: cover;
   width: 800px;
@@ -466,5 +466,154 @@ body {
 }
 
 .btn--confirm:hover {
-color: orange;
+  color: orange;
+}
+
+/* ------------------------------------------------- CSS de la page liste des pizzas ----------------------------------------------------------------------------- */
+
+.list-of-pizza--presentation-category {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.list-of-pizza--presentation-category-card--one--pizza {
+  text-decoration: none;
+  color: white;
+  z-index: 2;
+}
+
+.list-of-pizza--presentation-category-card--one--pizza:hover {
+  color: orange;
+}
+
+.pizza--small--details {
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.99;
+  width: 800px;
+  height: 400px;
+  margin-bottom: 50px;
+  font-size: 100px;
+  border: 3px solid black;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 1px 3px 2px black;
+  margin-right: 25px;
+}
+
+.pizza--small--details--image {
+  width: 806px;
+  height: 406px;
+  position: absolute;
+  opacity: 0.8;
+};
+
+/* ----------------------------------------------------- CSS de la page liste des desserts ----------------------------------------------------------------------- */
+
+.list-of-dessert--presentation-category {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.list-of-dessert--presentation-category-card--one--dessert {
+  text-decoration: none;
+  color: white;
+}
+
+.list-of-dessert--presentation-category-card--one--dessert:hover {
+  color: orange;
+}
+
+.dessert--small--details {
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.99;
+  width: 800px;
+  height: 400px;
+  margin-bottom: 50px;
+  font-size: 100px;
+  border: 3px solid black;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 1px 3px 2px black;
+  margin-right: 25px;
+}
+
+.dessert--small--details--image {
+  width: 806px;
+  height: 406px;
+  position: absolute;
+  opacity: 0.8;
+}
+
+;
+
+/* ------------------------------------------------------ CSS de la page des Vins et Boissons -------------------------------------------------------------------- */
+
+.list-of-beverage--presentation-category {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.list-of-beverage--presentation-category-card--one--beverage {
+  text-decoration: none;
+  color: white;
+}
+
+.list-of-beverage--presentation-category-card--one--beverage:hover {
+  color: orange;
+}
+
+.beverage--small--details {
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.99;
+  width: 800px;
+  height: 400px;
+  margin-bottom: 50px;
+  font-size: 100px;
+  border: 3px solid black;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 1px 3px 2px black;
+  margin-right: 25px;
+}
+
+.beverage--small--details--image {
+  width: 806px;
+  height: 406px;
+  position: absolute;
+  opacity: 0.8;
+}
+
+/* ----------------------------------------------- CSS pour les détails des fiches produits ----------------------------------------------------------------------- */
+
+.product--details--name, .product--details--topping {
+  font-weight: bold;
+}
+
+.pizza--big--details--image, .dessert--big--details--image, .beverage--big--details--image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1080px;
+  height: 720px;
+  margin-bottom: 50px;
+  font-size: 100px;
+  border: 3px solid black;
+  font-weight: bold;
+  text-shadow: 1px 3px 2px black;
+  margin-right: 25px;
+  margin-left: 400px;
 }

@@ -61,5 +61,14 @@
         "img_alt": "Une photo non contractuelle de café que nous servons à La Villa Aubert",
         "price": 1.50,
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni dolorem saepe ad minima exercitationem, perferendis atque dolorum reiciendis maiores impedit quae cupiditate quidem dignissimos officia esse. Repellendus quas voluptatibus quae soluta laboriosam? Officiis eos molestias eveniet id enim animi expedita sapiente harum obcaecati quia fuga odio possimus, ut odit sunt. Magni illum nihil id reiciendis assumenda velit non nesciunt hic temporibus, exercitationem molestiae suscipit omnis error soluta delectus a aliquam eveniet necessitatibus eligendi vero modi, rem itaque sunt? Id nulla tenetur, neque voluptatibus doloribus, vel, labore possimus saepe iusto ea reprehenderit fuga. Adipisci dolorem aut ducimus nulla odit, voluptas iure."
+      },
+      {
+        "id": 8,
+        "name": "Thé",
+        "topping": "Thé",
+        "img": "https://www.thesdelapagode.com/guide-du-the/wp-content/uploads/2019/12/choix-th%C3%A9-vrac-infusette.jpg",
+        "img_alt":"Une photo non contractuelle de thé que nous servons à La Villa Aubert",
+        "price": 1.50,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni dolorem saepe ad minima exercitationem, perferendis atque dolorum reiciendis maiores impedit quae cupiditate quidem dignissimos officia esse. Repellendus quas voluptatibus quae soluta laboriosam? Officiis eos molestias eveniet id enim animi expedita sapiente harum obcaecati quia fuga odio possimus, ut odit sunt. Magni illum nihil id reiciendis assumenda velit non nesciunt hic temporibus, exercitationem molestiae suscipit omnis error soluta delectus a aliquam eveniet necessitatibus eligendi vero modi, rem itaque sunt? Id nulla tenetur, neque voluptatibus doloribus, vel, labore possimus saepe iusto ea reprehenderit fuga. Adipisci dolorem aut ducimus nulla odit, voluptas iure."
       }
   ]
