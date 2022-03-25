@@ -6,12 +6,19 @@
 
     <section class="main-presentation">
 
-        <p class="main-presentation--firstparagraph">Voici l'intégralité des desserts proposées à La Villa Aubert. <br><br>
-            N'hésitez pas à cliquer sur les vignettes pour afficher les détails de chaque dessert qui vous donne envie !</p><br>
+        <p class="main-presentation--firstparagraph">Voici l'intégralité des desserts proposées à La Villa Aubert. <br>
+
+            <br>
+
+            N'hésitez pas à cliquer sur les vignettes pour afficher les détails de chaque dessert qui vous donne envie !
+
+        </p>
+
+        <br>
 
     </section>
 
-        <!-- On a beaucoup de desserts proposées, pour afficher la liste de l'intégralité des desserts, il est judicieux de réaliser une boucle -->
+    <!-- On a beaucoup de desserts proposées, pour afficher la liste de l'intégralité des desserts, il est judicieux de réaliser une boucle -->
 
     <!-- Je réalise donc une boucle for of pour afficher CHAQUE dessert de la liste desserts -->
 
@@ -19,21 +26,23 @@
 
         <!-- J'emploie la syntaxe ejs-->
 
-       <% for (const dessert of desserts) { %>
+        <% for (const dessert of desserts) { %>
 
-       <section class="dessert-presentation-category-card--one">
+        <section class="dessert-presentation-category-card--one">
 
-        <img class="dessert--small--details--image" src="<%= dessert.img %>" alt= "<%= dessert.img_alt %>" />
-        
-           <a class="list-of-dessert--presentation-category-card--one--dessert" href="/desserts/<%= dessert.id %>"><p class="dessert--small--details"><%= dessert.name %></p>
-        
-        </a>
+            <img class="dessert--small--details--image" src="<%= dessert.img %>" alt="<%= dessert.img_alt %>" />
 
-       </section>
-       
-       <% } %>
+            <a class="list-of-dessert--presentation-category-card--one--dessert" href="/desserts/<%= dessert.id %>">
 
-       </section>
+                <p class="dessert--small--details"><%= dessert.name %></p>
+
+            </a>
+
+        </section>
+
+        <% } %>
+
+    </section>
 
 </main>
 

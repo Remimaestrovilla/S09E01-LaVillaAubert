@@ -2,13 +2,13 @@
 
 const contactController = {
 
-    // J'y intègre la logique par la suite 
+    // J'y intègre la logique par la suite ...
 
     contact: function (request, response) {
 
-    // Pour y retourner la vue qui s'appelle contact.ejs
+        // Pour y retourner la vue qui s'appelle contact.ejs
 
-    response.render ("contact");
+        response.render("contact");
 
     }
 };

@@ -43,7 +43,7 @@ const pizzaListController = {
         response.render("pizzaDetails", {
 
             pizzas: foundPizza
-            
+
         });
 
     }

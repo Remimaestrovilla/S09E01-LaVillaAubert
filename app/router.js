@@ -1,6 +1,6 @@
 // Je récupère express comme dans server.js
 
-const express = require ("express");
+const express = require("express");
 
 // Je veux établir une connexion entre mon serveur et mes routes
 
@@ -8,21 +8,21 @@ const router = express.Router();
 
 // je récupère les controlleurs que j'ai fait lors de l'initialisation de mon projet
 
-const homeController = require ("./controllers/homeController");
+const homeController = require("./controllers/homeController");
 
-const contactController = require ("./controllers/contactController");
+const contactController = require("./controllers/contactController");
 
-const networkController = require ("./controllers/networkController");
+const networkController = require("./controllers/networkController");
 
-const loginController = require ('./controllers/loginController');
+const loginController = require('./controllers/loginController');
 
-const subscribeController = require ('./controllers/subscribeController');
+const subscribeController = require('./controllers/subscribeController');
 
-const pizzaListController = require ('./controllers/pizzaListController');
+const pizzaListController = require('./controllers/pizzaListController');
 
 const dessertListController = require("./controllers/dessertListController");
 
-const beverageListController = require ('./controllers/beverageListController');
+const beverageListController = require('./controllers/beverageListController');
 
 // Je réalise les routes génériques pour vérifier que le routeur et le serveur sont liés après toute la séparation des concepts établie auparavant
 
@@ -44,7 +44,7 @@ router.get('/beverages', beverageListController.beverageList);
 
 // Je réalise les routes paramétrées pour vérifier que le routeur et le serveur sont liés après toute la séparation des concepts établie auparavant
 
-router.get('/pizzas/:id',pizzaListController.selectAPizza);
+router.get('/pizzas/:id', pizzaListController.selectAPizza);
 
 router.get('/desserts/:id', dessertListController.selectADessert);
 

@@ -18,7 +18,7 @@ const dessertListController = {
 
         });
     },
-    
+
     // Maintenant, ca se complique un peu, je vais réaliser des routes paramétrées pour pouvoir afficher le détail de chaque dessert
 
     selectADessert: function (request, response) {

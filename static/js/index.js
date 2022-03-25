@@ -2,4 +2,4 @@
 
 // J'installe par la suite toutes les dépendances nécéssaires pour mon projet
 
-require ("./../../app/server");
+require("./../../app/server");

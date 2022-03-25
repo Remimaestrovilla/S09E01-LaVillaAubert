@@ -6,34 +6,40 @@
 
     <section class="main-presentation">
 
-        <p class="main-presentation--firstparagraph">Voici l'intégralité des vins et boissons proposées à La Villa Aubert. <br><br>
-            N'hésitez pas à cliquer sur les vignettes pour afficher les détails de chaque vins et boissons qui vous donne envie !</p><br>
+        <p class="main-presentation--firstparagraph">Voici l'intégralité des vins et boissons proposées à La Villa
+
+            Aubert. <br><br>
+
+            N'hésitez pas à cliquer sur les vignettes pour afficher les détails de chaque vins et boissons qui vous
+
+            donne envie !</p><br>
 
     </section>
 
- <!-- On a beaucoup de boissons proposées, pour afficher la liste de l'intégralité des boissons, il est judicieux de réaliser une boucle -->
+    <!-- On a beaucoup de boissons proposées, pour afficher la liste de l'intégralité des boissons, il est judicieux de réaliser une boucle -->
 
     <!-- Je réalise donc une boucle for of pour afficher CHAQUE boisson de la liste boissons-->
 
     <section class="list-of-pizza--presentation-category">
 
-        <!-- J'emploie la syntaxe ejs-->
+        <!-- J'emploie la syntaxe ejs -->
 
-       <% for (const beverage of beverages) { %>
+        <% for (const beverage of beverages) { %>
 
-       <section class="beverage-presentation-category-card--one">
+        <section class="beverage-presentation-category-card--one">
 
-        <img class="beverage--small--details--image" src="<%= beverage.img %>" alt= "<%= beverage.img_alt %>" />
-        
-           <a class="list-of-beverage--presentation-category-card--one--beverage" href="/beverages/<%= beverage.id %>"><p class="beverage--small--details"><%= beverage.name %></p>
+            <img class="beverage--small--details--image" src="<%= beverage.img %>" alt="<%= beverage.img_alt %>" />
 
+            <a class="list-of-beverage--presentation-category-card--one--beverage" href="/beverages/<%= beverage.id %>">
 
-        </a>
+                <p class="beverage--small--details"><%= beverage.name %></p>
 
-       </section>
-       
-       <% } %>
+            </a>
 
-       </section>
+        </section>
 
-   <%- include ("partials/footer") %>
+        <% } %>
+
+    </section>
+
+    <%- include ("partials/footer") %>

@@ -1,4 +1,4 @@
-// Je réalise un controlleur pour que les visiteurs du site puissent s'inscrire. Ca sera le dernier de la journée. Bien joué Morray !
+// Je réalise un controlleur pour que les visiteurs du site puissent s'inscrire. 
 
 const subscribeController = {
 

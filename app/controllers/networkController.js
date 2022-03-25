@@ -6,10 +6,10 @@ const networkController = {
 
     network: function (request, response) {
 
-    // Pour rendre la vue qui s'appelle network.ejs
+        // Pour rendre la vue qui s'appelle network.ejs
 
-    response.render("network")
-    
+        response.render("network")
+
     }
 };
 

@@ -2,12 +2,12 @@
 
 const homeController = {
 
-    // J'y intégre la logique crée initialement dans le router
+    // J'y intégre la logique crée initialement dans le router ...
 
     home: function (request, response) {
 
-    // Pour rendre la vue qui s'appelle home.ejs
-    
+        // Pour rendre la vue qui s'appelle home.ejs
+
         response.render("home");
 
     }

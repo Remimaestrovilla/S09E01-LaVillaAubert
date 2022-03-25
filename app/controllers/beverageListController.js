@@ -6,7 +6,7 @@ const beverages = require('./../../data/beverageData.json');
 
 const beverageListController = {
 
-    // J'y intègre la logique par la suite 
+    // J'y intègre la logique par la suite ...
 
     beverageList: function (request, response) {
 
@@ -15,7 +15,7 @@ const beverageListController = {
         response.render("beverageList", {
 
             beverages
-            
+
         });
 
     },

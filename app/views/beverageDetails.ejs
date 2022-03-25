@@ -6,11 +6,31 @@
 
     <section class="main-presentation">
 
-        <p class="main-presentation--firstparagraph">Voici les détails de la boisson <span
-                class="product--details--name"><%= beverages.name %></span> : </p><br>
-        <p class="main-presentation--firstparagraph"><span class="product--details--topping">Ingrédients : </span><span><%= beverages.topping %></span></p>
-        <p class="main-presentation--firstparagraph"><span class="product--details--topping">Prix : </span><span><%= beverages.price %> &euro; </span></p><br>
-        <img src= "<%= beverages.img %>" alt="<%= beverages.img_alt %>" class="beverage--big--details--image">
+        <p class="main-presentation--firstparagraph">Voici les détails de la boisson
+
+            <span class="product--details--name"><%= beverages.name %></span> : </p>
+
+        <br>
+        <p class="main-presentation--firstparagraph">
+
+            <span class="product--details--topping">Ingrédients : </span>
+
+            <span><%= beverages.topping %></span>
+
+        </p>
+
+        <p class="main-presentation--firstparagraph">
+
+            <span class="product--details--topping">Prix : </span>
+
+            <span><%= beverages.price %> &euro; </span>
+
+        </p>
+
+        <br>
+
+        <img src="<%= beverages.img %>" alt="<%= beverages.img_alt %>" class="beverage--big--details--image" />
+
     </section>
 
     <%- include ("partials/footer") %>

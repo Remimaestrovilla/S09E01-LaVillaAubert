@@ -27,7 +27,7 @@ body {
   color: white;
 }
 
-.header-title--redirection:hover {
+.header-title--redirection:hover, .header-nav--list--href:hover {
   color: orange;
 }
 
@@ -51,10 +51,6 @@ body {
   text-decoration: none;
   color: white;
   font-size: 2em;
-}
-
-.header-nav--list--href:hover {
-  color: orange;
 }
 
 /* Réalisation du main */
