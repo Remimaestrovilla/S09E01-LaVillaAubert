@@ -14,7 +14,7 @@ const app = express();
 
 const path = require('path')
 
-// J'assigne à mon serveur le port 3005
+// J'assigne à mon serveur le port 3006
 
 const PORT = 3006;
 
